@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocument=self.webpackChunkdocument||[]).push([[1903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/flickdone-documentation/blog","blogTitle":"Blog","authorsListPath":"/flickdone-documentation/blog/authors"}')}}]);
