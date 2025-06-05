@@ -25,6 +25,9 @@ const config: Config = {
   organizationName: 'flickDONE',
   projectName: 'flickdone-documentation',  
 
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -137,6 +140,7 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} flickDONE`,
     },
+    useSSH: true,
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
